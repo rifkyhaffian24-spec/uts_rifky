@@ -15,7 +15,6 @@ Teorema CAP menyatakan bahwa dalam sistem terdistribusi kita hanya bisa mendapat
 Karena network partition pasti terjadi, maka sistem harus memilih antara:
 	•	CP → konsisten, tapi kadang tidak tersedia
 	•	AP → tersedia, tapi konsistensinya tertunda
-
 ⸻
 
 ### B. BASE
