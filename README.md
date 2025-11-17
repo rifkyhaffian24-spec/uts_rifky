@@ -58,6 +58,16 @@ Artinya GraphQL tidak menggantikan IPC, tapi mengkoordinasikan komunikasi antar
 
 ### B.Diagram Komunikasi
 graph TD
+uts-distribusi/
+│
+├── README.md
+│
+└── postgres/
+    ├── docker-compose.yml
+    ├── master/
+    │   └── postgresql.conf
+    └── replica/
+        └── postgresql.conf
     C(Consistency)
     A(Availability)
     P(Partition<br>Tolerance)
