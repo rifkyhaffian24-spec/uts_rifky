@@ -59,7 +59,7 @@ Artinya GraphQL tidak menggantikan IPC, tapi mengkoordinasikan komunikasi antar
 ### B.Diagram Komunikasi
 graph TD
 
-    C(Consistency)
+    '''C(Consistency)
     A(Availability)
     P(Partition<br>Tolerance)
 
@@ -68,10 +68,5 @@ graph TD
     A -->|Memilih 2| AP[AP System]
     P --> AP
     C -->|Memilih 2| CA[CA System (Tidak Mungkin Saat Partition)]
-'''mermaid
-flowchart LR
-    Client --> GraphQL
-    GraphQL --> ServiceA
-    GraphQL --> ServiceB
-    GraphQL --> ServiceC
-'''
+	'''
+
