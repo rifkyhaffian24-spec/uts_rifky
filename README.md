@@ -59,7 +59,8 @@ Artinya GraphQL tidak menggantikan IPC, tapi mengkoordinasikan komunikasi antar
 ### B.Diagram Komunikasi
 graph TD
 
-    '''C(Consistency)
+    '''mermaid
+	C(Consistency)
     A(Availability)
     P(Partition<br>Tolerance)
 
