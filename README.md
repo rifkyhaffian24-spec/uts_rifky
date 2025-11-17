@@ -68,3 +68,10 @@ graph TD
     A -->|Memilih 2| AP[AP System]
     P --> AP
     C -->|Memilih 2| CA[CA System (Tidak Mungkin Saat Partition)]
+'''mermaid
+flowchart LR
+    Client --> GraphQL
+    GraphQL --> ServiceA
+    GraphQL --> ServiceB
+    GraphQL --> ServiceC
+'''
