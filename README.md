@@ -57,8 +57,13 @@ GraphQL:
 Artinya GraphQL tidak menggantikan IPC, tapi mengkoordinasikan komunikasi antar proses.
 
 ### B.Diagram Komunikasi
-flowchart LR
-    Client --> GraphQL
-    GraphQL --> ServiceA
-    GraphQL --> ServiceB
-    GraphQL --> ServiceC
+graph TD
+    C(Consistency)
+    A(Availability)
+    P(Partition<br>Tolerance)
+
+    C -->|Memilih 2| CP[CP System]
+    P --> CP
+    A -->|Memilih 2| AP[AP System]
+    P --> AP
+    C -->|Memilih 2| CA[CA System (Tidak Mungkin Saat Partition)]
