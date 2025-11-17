@@ -1,5 +1,5 @@
-#Nama: (Rifky Haffian Fasa)
-#NIM: (245410042)
+# Nama: (Rifky Haffian Fasa)
+# NIM: (245410042)
 
 ⸻
 
